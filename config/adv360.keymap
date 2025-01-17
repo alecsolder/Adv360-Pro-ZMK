@@ -80,11 +80,11 @@
 
         layer_Momentary_Layer {
             bindings = <
-         &trans     &trans     &trans     &trans     &trans     &trans                       &trans                                                          &trans     &trans       &trans         &trans     &trans             &trans  &trans
-         &trans  &kp LG(Q)  &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp LG(G)                       &trans                                                          &trans  &kp LG(J)    &kp LG(L)      &kp LG(U)  &kp LG(Y)  &kp LG(SEMICOLON)  &trans
-         &trans  &kp LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp LG(D)                       &trans          &trans  &trans                  &trans  &trans  &trans     &trans       &trans         &trans  &kp LG(I)          &kp LG(O)  &trans
- &kp LEFT_SHIFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                                               &trans                  &trans                     &trans       &trans         &trans     &trans             &trans  &trans
-         &trans     &trans     &trans   &kp HOME    &kp END                       &kp LG(BACKSPACE)  &kp LG(DELETE)  &trans                  &trans  &trans  &trans             &kp PAGE_UP  &kp PAGE_DOWN     &trans             &trans  &trans
+         &trans     &trans     &trans     &trans     &trans     &trans                       &trans                                                          &trans     &trans       &trans         &trans          &trans             &trans  &trans
+         &trans  &kp LG(Q)  &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp LG(G)                       &trans                                                          &trans  &kp LG(J)    &kp LG(L)      &kp LG(U)       &kp LG(Y)  &kp LG(SEMICOLON)  &trans
+         &trans  &kp LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp LG(D)                       &trans          &trans  &trans                  &trans  &trans  &trans  &kp LG(N)    &kp LG(N)      &kp LG(E)       &kp LG(I)          &kp LG(O)  &trans
+ &kp LEFT_SHIFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                                               &trans                  &trans                  &kp LG(K)    &kp LG(M)  &kp LG(COMMA)  &kp LG(PERIOD)      &kp LG(SLASH)  &trans
+         &trans     &trans     &trans   &kp HOME    &kp END                       &kp LG(BACKSPACE)  &kp LG(DELETE)  &trans                  &trans  &trans  &trans             &kp PAGE_UP  &kp PAGE_DOWN          &trans             &trans  &trans
             >;
         };
 
