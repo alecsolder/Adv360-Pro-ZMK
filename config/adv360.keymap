@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-   &kp EQUAL     &kp N1     &kp N2    &kp N3     &kp N4  &kp N5              &tog 0                                                                                       &mo 3  &kp N6  &kp N7     &kp N8            &kp N9             &kp N0        &kp MINUS
-     &kp TAB      &kp Q      &kp W     &kp F      &kp P   &kp G              &tog 1                                                                                    &kp HOME   &kp J   &kp L      &kp U             &kp Y      &kp SEMICOLON         &kp BSLH
-     &kp ESC      &kp A      &kp R     &kp S      &kp T   &kp D              &tog 1  &kp LEFT_COMMAND  &kp LALT                  &kp LEFT_CONTROL  &kp RIGHT_COMMAND    &kp END   &kp H   &kp N      &kp E             &kp I              &kp O          &kp SQT
-   &kp LSHFT      &kp Z      &kp X     &kp C      &kp V   &kp B                                        &kp HOME                       &kp PAGE_UP                                 &kp K   &kp M  &kp COMMA        &kp PERIOD          &kp SLASH  &kp RIGHT_SHIFT
- &kp LG(TAB)  &kp GRAVE  &kp COMMA  &kp LEFT  &kp RIGHT                    &kp BSPC           &kp DEL     &mo 4                             &mo 4          &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LG(PIPE)
+   &kp EQUAL     &kp N1     &kp N2    &kp N3     &kp N4  &kp N5              &tog 0                                                                                                &mo 3  &kp N6  &kp N7     &kp N8            &kp N9             &kp N0        &kp MINUS
+     &kp TAB      &kp Q      &kp W     &kp F      &kp P   &kp G              &tog 1                                                                                             &kp HOME   &kp J   &kp L      &kp U             &kp Y      &kp SEMICOLON         &kp BSLH
+     &kp ESC      &kp A      &kp R     &kp S      &kp T   &kp D              &tog 1  &kp LEFT_COMMAND           &kp LALT                  &kp LEFT_CONTROL  &kp RIGHT_COMMAND    &kp END   &kp H   &kp N      &kp E             &kp I              &kp O          &kp SQT
+   &kp LSHFT      &kp Z      &kp X     &kp C      &kp V   &kp B                                        &kp LG(BACKSPACE)                       &kp PAGE_UP                                 &kp K   &kp M  &kp COMMA        &kp PERIOD          &kp SLASH  &kp RIGHT_SHIFT
+ &kp LG(TAB)  &kp GRAVE  &kp COMMA  &kp LEFT  &kp RIGHT                    &kp BSPC           &kp DEL              &mo 4                             &mo 4          &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LG(PIPE)
             >;
         };
 
@@ -80,11 +80,11 @@
 
         layer_Momentary_Layer {
             bindings = <
-         &trans     &trans     &trans     &trans     &trans     &trans                       &trans                                                          &trans     &trans       &trans         &trans          &trans             &trans  &trans
-         &trans  &kp LG(Q)  &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp LG(G)                       &trans                                                          &trans  &kp LG(J)    &kp LG(L)      &kp LG(U)       &kp LG(Y)  &kp LG(SEMICOLON)  &trans
-         &trans  &kp LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp LG(D)                       &trans          &trans  &trans                  &trans  &trans  &trans  &kp LG(N)    &kp LG(N)      &kp LG(E)       &kp LG(I)          &kp LG(O)  &trans
- &kp LEFT_SHIFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                                               &trans                  &trans                  &kp LG(K)    &kp LG(M)  &kp LG(COMMA)  &kp LG(PERIOD)      &kp LG(SLASH)  &trans
-         &trans     &trans     &trans   &kp HOME    &kp END                       &kp LG(BACKSPACE)  &kp LG(DELETE)  &trans                  &trans  &trans  &trans             &kp PAGE_UP  &kp PAGE_DOWN          &trans             &trans  &trans
+  &kp LG(EQUAL)     &trans     &trans     &trans     &trans     &trans                       &trans                                                          &trans     &trans       &trans         &trans                &trans                 &trans         &kp LG(MINUS)
+    &kp LG(TAB)  &kp LG(Q)  &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp LG(G)                       &trans                                                          &trans  &kp LG(J)    &kp LG(L)      &kp LG(U)             &kp LG(Y)      &kp LG(SEMICOLON)     &kp LG(BACKSLASH)
+         &trans  &kp LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp LG(D)                       &trans          &trans  &trans                  &trans  &trans  &trans  &kp LG(N)    &kp LG(N)      &kp LG(E)             &kp LG(I)              &kp LG(O)  &kp LG(SINGLE_QUOTE)
+ &kp LEFT_SHIFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                                               &trans                  &trans                  &kp LG(K)    &kp LG(M)  &kp LG(COMMA)        &kp LG(PERIOD)          &kp LG(SLASH)                &trans
+         &trans     &trans     &trans   &kp HOME    &kp END                       &kp LG(BACKSPACE)  &kp LG(DELETE)  &trans                  &trans  &trans  &trans             &kp PAGE_UP  &kp PAGE_DOWN  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                &trans
             >;
         };
 
