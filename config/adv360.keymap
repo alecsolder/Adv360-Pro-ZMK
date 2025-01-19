@@ -80,11 +80,11 @@
 
         layer_Momentary_Layer {
             bindings = <
-  &kp LG(EQUAL)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                       &trans                                                          &trans  &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)      &kp LG(NUMBER_9)       &kp LG(NUMBER_0)         &kp LG(MINUS)
-    &kp LG(TAB)         &kp LG(Q)         &kp LG(W)         &kp LG(F)         &kp LG(P)         &kp LG(G)                       &trans                                                          &trans         &kp LG(J)         &kp LG(L)         &kp LG(U)             &kp LG(Y)      &kp LG(SEMICOLON)     &kp LG(BACKSLASH)
-         &trans         &kp LG(A)         &kp LG(R)         &kp LG(S)         &kp LG(T)         &kp LG(D)                       &trans          &trans  &trans                  &trans  &trans  &trans         &kp LG(N)         &kp LG(N)         &kp LG(E)             &kp LG(I)              &kp LG(O)  &kp LG(SINGLE_QUOTE)
- &kp LEFT_SHIFT         &kp LG(Z)         &kp LG(X)         &kp LG(C)         &kp LG(V)         &kp LG(B)                                               &trans                  &trans                         &kp LG(K)         &kp LG(M)     &kp LG(COMMA)        &kp LG(PERIOD)          &kp LG(SLASH)                &trans
-         &trans            &trans            &trans          &kp HOME           &kp END                              &kp LG(BACKSPACE)  &kp LG(DELETE)  &trans                  &trans  &trans  &trans                         &kp PAGE_UP     &kp PAGE_DOWN  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                &trans
+  &kp LG(EQUAL)  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                       &trans                                                                        &trans  &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)      &kp LG(NUMBER_9)       &kp LG(NUMBER_0)         &kp LG(MINUS)
+    &kp LG(TAB)         &kp LG(Q)         &kp LG(W)         &kp LG(F)         &kp LG(P)         &kp LG(G)                       &trans                                                                        &trans         &kp LG(J)         &kp LG(L)         &kp LG(U)             &kp LG(Y)      &kp LG(SEMICOLON)     &kp LG(BACKSLASH)
+         &trans         &kp LG(A)         &kp LG(R)         &kp LG(S)         &kp LG(T)         &kp LG(D)                       &trans          &trans  &trans                  &trans         &trans         &trans         &kp LG(N)         &kp LG(N)         &kp LG(E)             &kp LG(I)              &kp LG(O)  &kp LG(SINGLE_QUOTE)
+ &kp LEFT_SHIFT         &kp LG(Z)         &kp LG(X)         &kp LG(C)         &kp LG(V)         &kp LG(B)                                               &trans                  &trans                                       &kp LG(K)         &kp LG(M)     &kp LG(COMMA)        &kp LG(PERIOD)          &kp LG(SLASH)                &trans
+         &trans            &trans            &trans          &kp HOME           &kp END                              &kp LG(BACKSPACE)  &kp LG(DELETE)  &trans                  &trans  &kp LG(ENTER)  &kp LG(SPACE)                         &kp PAGE_UP     &kp PAGE_DOWN  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                &trans
             >;
         };
 
